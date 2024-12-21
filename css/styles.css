@@ -1152,6 +1152,12 @@ width: 100%;
       flex-direction: row;
   }
 
+
+  .woman-img{
+    width: 440px;
+    height: 560px;
+  }
+
   .first-section-image{
     width: 50%;
     height: 100%;

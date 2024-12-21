@@ -84,16 +84,11 @@
           <section id="first-section">
             <!-- feyza -->
               <div class="first-section-image">
-                <img
-                class="woman-img"
-                src="images/first_section/mobil.png"
-                srcset="
-                  images/first_section/mobil.png 1x,
-                  images/first_section/tablet.png 2x,
-                  images/first_section/desktop.png 3x
-                "
-                alt="first section"
-              />
+                <picture >
+                  <source srcset="images/first_section/desktop.png" media="(min-width: 1024px)">
+                  <source srcset="images/first_section/tablet.png" media="(min-width: 768px)">
+                  <img class="woman-img" src="images/first_section/mobil.png" alt="first section">
+              </picture>
             </div>
     
                 
